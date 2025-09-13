@@ -1,4 +1,4 @@
-package org.pranish;
+package org.pranish.locking;
 
 public class SynchronizationDemo {
     private static Integer count = 0;
@@ -32,5 +32,4 @@ public class SynchronizationDemo {
     private synchronized static void increment(){
         count++;
     }
-
 }
